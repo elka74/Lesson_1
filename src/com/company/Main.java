@@ -11,9 +11,18 @@ public class Main {
         a = scr.nextInt();
         b = scr.nextInt();
         oper = scr.next();
-
-
-
+        switch (oper){
+            case "+":
+                System.out.println(a + b);
+                break;
+            case  "-":
+                if (a > b) {
+                    System.out.println(a - b);
+                }
+                else{
+                    System.out.println("Невозможно выполнить операцию");
+                    }
+                }
         }
     }
 
